@@ -1,0 +1,210 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "“00_Notebooks基础学习",
+      "provenance": [],
+      "collapsed_sections": [],
+      "toc_visible": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "bOChJSNXtC9g"
+      },
+      "source": [
+        "# Notebooks基础知识"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "rSXwaU-ptNG6"
+      },
+      "source": [
+        "\n",
+        "欢迎来到practicalAI的第一节课。在本节中，我们将学习如何使用notebook工作和保存。如果你已经知道如何使用notebooks，那么可以跳过本节内容。\n",
+        "\n",
+        "\n",
+        "\n",
+        "**注意**：在notebook中运行代码时，请遵循以下步骤：\n",
+        "1. 登陆你的Google账号\n",
+        "2. 点击工具栏上的**COPY TO DRIVE**按钮。这会在新的标签页中打开此notebook。\n",
+        "\n",
+        "\n",
+        "\n",
+        "3. 在标题处删除**Copy of**，重命名新的notebook。\n",
+        "4. 运行代码，做一点修改等操作，这些将自动地保存在你个人的Google Drive中。"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "cOEaLCZAu4JQ"
+      },
+      "source": [
+        "# 单元格类型"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WcOgqq5xvtMn"
+      },
+      "source": [
+        "Notebooks是强大的编程可视化方法。我们可以使用notebooks来进行Python编程和学习机器学习的基础知识。首先，你需要知道notebooks是由单元格(cell)组成的。每个单元格要么是**代码单元格(code cell)**，要么是**文本单元格(text cell)**。\n",
+        "\n",
+        "* **文本单元格**：用作标题和段落\n",
+        "* **代码单元格**：用作保存代码\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "tBVFofpLutnn"
+      },
+      "source": [
+        "# 创建单元格\n",
+        "\n",
+        "\n",
+        "首先，生成一个文本单元格。要在特定位置创建单元格，只需单击该位置并通过单击顶部**View**按钮下方的**➕TEXT**创建文本单元格。当生成单元格后，单击它并在其中输入以下内容：\n",
+        "\n",
+        "```\n",
+        "### This is a header\n",
+        "Hello world!\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "iXYgZpgpYS3N"
+      },
+      "source": [
+        "# 运行单元格\n",
+        "\n",
+        "在单元格中，同时按下**SHIFT**和**ENTER**即可运行单元格。"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WKTbiBuvYexD"
+      },
+      "source": [
+        "# 编辑单元格\n",
+        "\n",
+        "要编辑单元格，请双击它，便可以在单元格内输入你想要的内容。"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "Jv0ZSuhNYVIU"
+      },
+      "source": [
+        "# 移动单元格\n",
+        "\n",
+        "创建单元格后，可以使用工具栏上的⬆️**CELL**和⬇️**CELL**按钮移动它。"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "B_VGiYf8YXiU"
+      },
+      "source": [
+        "# 删除单元格\n",
+        "\n",
+        "您可以通过单击单元格并按下单元格右上角有三个垂直点的按钮，再单击**删除单元格**，从而删除单元格，"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "hxl7Fk8LVQmR"
+      },
+      "source": [
+        "# 创建代码单元格\n",
+        "\n",
+        "现在让我们采取与上面相同的步骤来创建，编辑和删除代码单元格。您可以通过单击顶部**File**按钮下方的➕CODE来创建代码单元。创建好单元格后，单击它并在其中键入以下内容：\n",
+        "\n",
+        "```\n",
+        "print (\"hello world!\")\n",
+        "```\n",
+        "\n",
+        "⏰  -   运行第一个代码单元时可能需要几秒钟。"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "DfGf9KmQ3DJM",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "b19cae0b-0686-42d1-f22b-e465f6d8f27f"
+      },
+      "source": [
+        "print (\"hello world!\")"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello world!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "GURvB6XzWN12"
+      },
+      "source": [
+        "**注意：** 如果当前notebook闲置超过30分钟，这些Google colab notebooks会超时，这意味着您需要再次运行所有代码单元。"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "VoMq0eFRvugb"
+      },
+      "source": [
+        "# 保存notebook"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "nPWxXt5Hv7Ga"
+      },
+      "source": [
+        "转到**File**，然后单击**Save a copy in Drive**。现在，您将在自己的Google云端硬盘中拥有自己的每个笔记本副本。如果您有[Github](https://github.com/)，您可以探索如何将其保存在那里，甚至可以将其下载为.ipynb或.py文件。"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "8zr_xfBDyfZf"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
